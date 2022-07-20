@@ -1,0 +1,25 @@
+public class Methods {
+	
+	
+
+	 public void display() {
+		System.out.println(" method called");
+	 }
+	 
+	 public int methodNumber() {
+		 
+		 int a=8;
+		 return a;
+	 }
+	
+	 public static void main(String[] args) {
+		 
+		 Methods obj= new Methods();
+		 obj.display();
+		 
+		 int result=obj.methodNumber();
+		 
+		 System.out.println(result);
+		
+	}
+}
